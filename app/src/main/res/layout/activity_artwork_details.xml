@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvArtworkDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDE8E0"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="The Starry Night\nVincent van Gogh\n1889"
+        android:textColor="#3D2417"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnVisitWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8B4513"
+        android:text="Visit Website"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B4513"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
